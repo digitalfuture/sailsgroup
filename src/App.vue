@@ -1,28 +1,34 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app dark>
+    <v-content>
+      <Contacts/>
+    </v-content>
+    <v-footer fixed app class="grey--text">
+      <span class="ml-3">&copy; {{ currentYear }} Sails Co</span>
+    </v-footer>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Contacts from './components/Contacts'
 
 export default {
-  name: "app",
+  name: 'App',
   components: {
-    HelloWorld
+    Contacts
+  },
+  data() {
+    return {}
+  },
+  computed: {
+    currentYear: () => new Date().getFullYear()
   }
-};
+}
 </script>
-
-<style lang="scss">
+<style lang="scss" scoped>
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background: #212121;
 }
 </style>
