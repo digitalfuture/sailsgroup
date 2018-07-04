@@ -2,7 +2,7 @@
   <v-app dark>
     <v-content>
     </v-content>
-    <v-footer fixed app class="grey--text" height="auto">
+    <v-footer fixed app class="grey--text transparent" height="auto">
       <v-layout column>
         <v-flex mb-5>
           <Contacts/>
@@ -33,6 +33,10 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
 #app {
   font-family: 'Barlow Semi Condensed', sans-serif;
-  background: #212121;
+  background: #212121 url('./assets/background.png') no-repeat right 10% top 10% /30%;
+}
+
+footer {
+  // background: rgba(33, 33, 33, 1);
 }
 </style>
