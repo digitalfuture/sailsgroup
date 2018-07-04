@@ -1,19 +1,21 @@
 <template>
-  <v-container fluid class="full-height">
-    <v-layout column align-center class="full-height">
-      <v-layout row align-center>
-        <v-layout row wrap>
-          <v-flex xs12 sm6>
-            <img src="@/assets/logo.png" alt="Sails Co" class="mb-5 logo">
+  <v-container fluid>
+    <v-layout row justify-center align-center>
+      <v-flex xs12 sm9 md6>
+        <v-layout wrap row align-end>
+          <v-flex xs12 sm3 md3 pl-3 pt-3>
+            <img src="@/assets/logo.png" alt="Sails Co" class="logo">
           </v-flex>
-          <v-flex xs12 sm6 no-wrap class="contacts">
-            <br>
-            <br>
-            <span>phone: +84 129 55 20 025  &nbsp;&nbsp;/ Vietnam</span>
-            <p>email: <a href="mailto:mail@sailsgroup@online">mail@sailsgroup.online</a></p>
-          </v-flex> 
+          <v-flex xs12 sm10 md9 pl-3 pt-3>
+            <v-layout no-wrap>
+              <div class="contacts">
+                <span>phone: &ensp;<span class="silver">+84 129 55 20 025  &nbsp;&nbsp;</span>/ Vietnam</span><br>
+                <span>email: &ensp;<a href="mailto:mail@sailsgroup@online">mail@sailsgroup.online</a></span>
+              </div>
+            </v-layout>
+          </v-flex>
         </v-layout>
-      </v-layout>
+      </v-flex>
     </v-layout>
   </v-container>
 </template>
@@ -26,21 +28,25 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-.full-height {
-  height: 100%;
-}
 .contacts {
-  a {
+  font-size: 20px;
+  .silver {
     color: silver;
+  }
+
+  a {
+    color: lightgrey;
     text-decoration: none;
+
     &:hover {
-      color: lightgrey;
+      color: white;
     }
   }
-  color: silver;
-  font-size: 20px;
 }
+
 .logo {
-  width: 120px;
+  width: 110px;
+  height: 110px;
+  display: block;
 }
 </style>

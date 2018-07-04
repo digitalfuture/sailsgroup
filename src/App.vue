@@ -1,10 +1,14 @@
 <template>
   <v-app dark>
     <v-content>
-      <Contacts/>
     </v-content>
-    <v-footer fixed app class="grey--text">
-      <span class="ml-3">&copy; {{ currentYear }} Sails Co</span>
+    <v-footer fixed app class="grey--text" height="auto">
+      <v-layout column>
+        <v-flex mb-5>
+          <Contacts/>
+        </v-flex>
+        <p class="ml-3">&copy; {{ currentYear }} Sails Co</p>
+      </v-layout>
     </v-footer>
   </v-app>
 </template>
