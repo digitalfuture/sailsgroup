@@ -1,6 +1,11 @@
 <template>
   <v-app dark>
     <v-content>
+      <div class="price">
+        <a href="/files/Sails Co Coffee Price.pdf" target="_blank">
+          OPEN PRICE LIST
+        </a>
+      </div>
     </v-content>
     <v-footer fixed app class="grey--text transparent" height="auto">
       <v-layout column>
@@ -33,6 +38,23 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
 #app {
   font-family: 'Barlow Semi Condensed', sans-serif;
-  background: #212121 url('./assets/background.png') no-repeat right 10% top 10% /30%;
+  background: #212121 url('./assets/background.png') no-repeat right 0% top 0% /40%;
+
+  .silver {
+    color: silver;
+  }
+
+  a {
+    color: lightgrey;
+    text-decoration: none;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  .price {
+    margin: 40px;
+  }
 }
 </style>
