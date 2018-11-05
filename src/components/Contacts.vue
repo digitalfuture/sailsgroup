@@ -9,7 +9,7 @@
           <v-flex xs12 sm10 md9 pl-3 pt-3>
             <v-layout no-wrap>
               <div class="contacts">
-                <span>phone: &ensp;<span class="silver">+84 129 55 20 025  &nbsp;&nbsp;</span>/ Vietnam</span><br>
+                <span>phone: &ensp;<span class="silver">+84 825 520 025 &nbsp;&nbsp;</span>/ Vietnam</span><br>
                 <span>email: &ensp;<a href="mailto:mail@sailsgroup@online">mail@sailsgroup.online</a></span>
               </div>
             </v-layout>
