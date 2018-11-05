@@ -2,8 +2,13 @@
   <v-app dark>
     <v-content>
       <div class="price">
-        <a href="/files/Sails Co Coffee Price.pdf" target="_blank">
-          OPEN PRICE LIST
+        <a href="/files/Sails Co Coffee Price (USD).pdf" target="_blank">
+          OPEN PRICE LIST (USD)
+        </a>
+      </div>
+      <div class="price">
+        <a href="/files/Sails Co Coffee Price (VND).pdf" target="_blank">
+          OPEN PRICE LIST (VND)
         </a>
       </div>
     </v-content>
