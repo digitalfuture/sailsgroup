@@ -15,7 +15,7 @@
     <v-footer fixed app class="grey--text transparent" height="auto">
       <v-layout column>
         <v-flex mb-5>
-          <Contacts/>
+          <Contacts />
         </v-flex>
         <p class="ml-3">&copy; {{ currentYear }} Sails Co</p>
       </v-layout>

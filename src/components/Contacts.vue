@@ -4,13 +4,21 @@
       <v-flex xs12 sm9 md6>
         <v-layout wrap row align-end>
           <v-flex xs12 sm3 md3 pl-3 pt-3>
-            <img src="@/assets/logo.png" alt="Sails Co" class="logo">
+            <img src="@/assets/logo.png" alt="Sails Co" class="logo" />
           </v-flex>
           <v-flex xs12 sm10 md9 pl-3 pt-3>
             <v-layout no-wrap>
               <div class="contacts">
-                <span>phone: &ensp;<span class="silver">+84 825 520 025 &nbsp;&nbsp;</span>/ Vietnam</span><br>
-                <span>email: &ensp;<a href="mailto:mail@sailsgroup@online">mail@sailsgroup.online</a></span>
+                <span
+                  >phone: &ensp;<span class="silver"
+                    >+84 825 520 025 &nbsp;&nbsp;</span
+                  >/ Vietnam</span
+                ><br />
+                <span
+                  >email: &ensp;<a href="mailto:mail@sails-group.com"
+                    >mail@sails-group.com</a
+                  ></span
+                >
               </div>
             </v-layout>
           </v-flex>
